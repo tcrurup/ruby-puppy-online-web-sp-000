@@ -5,7 +5,8 @@ class Dog
   def initialize(name)
     
     @name = name
-    @all = 
+    @all << self
+    
   end
   
   def self.clear_all
@@ -14,7 +15,6 @@ class Dog
   
   
   def self.all
-    
-    @all.each do |STDIN
+    @all
   end
 end
